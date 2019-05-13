@@ -97,9 +97,9 @@ Penting untuk menutup koneksi ke database setelah selesai mengakses dan tidak me
 Untuk data CSV yang akan digunakan dapat Anda unduh terlebih dahulu dan simpan di sebuah folder *working directory*, misalnya di dalam folder `D:/pelatihanR` dengan nama `prices.csv`. Untuk mengaktifkan *working directory* pada folder tersebut Anda dapat gunakan fungsi `setwd("D:/pelatihanR")`.
 
 ```{r eval=FALSE}
-download.file(url = "https://raw.githubusercontent.com/aephidayatuloh/dm_dplyr/master/prices.csv", 
+download.file(url = "https://raw.githubusercontent.com/aephidayatuloh/manipulasi-data/master/prices.csv", 
               destfile = "D:/pelatihanR/prices.csv")
-download.file(url = "https://raw.githubusercontent.com/aephidayatuloh/dm_dplyr/master/specialdays.csv", 
+download.file(url = "https://raw.githubusercontent.com/aephidayatuloh/manipulasi-data/master/specialdays.csv", 
               destfile = "D:/pelatihanR/specialdays.csv")
 
 # Import data dari CSV tersebut ke R
