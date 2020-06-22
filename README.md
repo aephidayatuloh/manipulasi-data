@@ -74,9 +74,9 @@ Untuk data yang tersedia di database Anda dapat membuat koneksi ke database deng
 ```{r db}
 srv <- "localhost" # ganti dengan IP yang akan diberikan oleh pembicara
 port <- 3306
-dbn <- "nycflights"
-usr <- "user1"
-pwd <- "P@ssw0rd"
+dbn <- "nama database"
+usr <- "username"
+pwd <- "password"
 
 mycon <- dbConnect(MySQL(), 
                    host = srv, 
